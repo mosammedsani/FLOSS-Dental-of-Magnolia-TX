@@ -1,7 +1,12 @@
 import { Service, Doctor, Testimonial, SmileTransformation, OfficeAmenity } from './types';
 
-export const HERO_IMAGE = '/src/assets/images/luxury_dentistry_hero_1780148884932.png';
-export const OFFICE_IMAGE = '/src/assets/images/luxury_dental_office_1780148903043.png';
+import heroImage from './assets/images/luxury_dentistry_hero_1780148884932.png';
+import officeImage from './assets/images/luxury_dental_office_1780148903043.png';
+import doctorMikeImage from './assets/images/doctor_mike_tran_1780148924052.png';
+import doctorCatherineImage from './assets/images/doctor_catherine_castillo_1780148946307.png';
+
+export const HERO_IMAGE = heroImage;
+export const OFFICE_IMAGE = officeImage;
 
 export const services: Service[] = [
   {
@@ -185,7 +190,7 @@ export const doctors: Doctor[] = [
   {
     name: 'Dr. Mike Tran',
     role: 'Founder & Doctor of Dental Surgery (DDS)',
-    image: '/src/assets/images/doctor_mike_tran_1780148924052.png',
+    image: doctorMikeImage,
     bio: 'Dr. Mike Tran is a celebrated dental artist who combines elite master-level training, meticulous technological precision, and a genuine, compassionate touch to redefine modern dentistry. Graduating with honors and continuing to achieve advanced clinical certifications across implantology, digital surgery, and cosmetic dentistry, he established FLOSS Dental Magnolia as an epic wellness sanctuary.',
     credentials: [
       'Doctor of Dental Surgery (DDS)',
@@ -199,7 +204,7 @@ export const doctors: Doctor[] = [
   {
     name: 'Dr. Catherine Castillo',
     role: 'Associate Dentist & Smile Architect',
-    image: '/src/assets/images/doctor_catherine_castillo_1780148946307.png',
+    image: doctorCatherineImage,
     bio: 'Dr. Catherine Castillo represents the future of boutique preventative and aesthetic healthcare in the Magnolia and Conroe communities. Renowned for her exceptionally gentle touch and friendly demeanors, she crafts restorative solutions that blend artistic geometry with medical integrity, transforming dental anxieties into state of reassuring relaxation.',
     credentials: [
       'Doctor of Dental Surgery (DDS)',

@@ -20,9 +20,7 @@ export default function AboutDoctors({ doctorName, onBack, onBookClick }: AboutD
   const doc = doctorName === 'mike-tran' ? doctors[0] : doctors[1];
 
   // Specific high-resolution avatars / clinic context photos
-  const avatarImage = doctorName === 'mike-tran' 
-    ? '/src/assets/images/doctor_mike_tran_1780148924052.png'
-    : '/src/assets/images/doctor_catherine_castillo_1780148946307.png';
+  const avatarImage = doc.image;
 
   const isMike = doctorName === 'mike-tran';
 
