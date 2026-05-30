@@ -1,0 +1,6 @@
+{
+  "name": "FLOSS Dental Magnolia",
+  "description": "A world-class luxury dental experience in Magnolia, TX, blending premium care with advanced technology.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
